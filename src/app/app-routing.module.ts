@@ -30,6 +30,30 @@ const routes: Routes = [
     path: 'persians',
     loadChildren: () => import('./persians/persians.module').then( m => m.PersiansPageModule)
   },
+  {
+    path: 'romansgallery',
+    loadChildren: () => import('./romansgallery/romansgallery.module').then( m => m.RomansgalleryPageModule)
+  },
+  {
+    path: 'egyptiansgallery',
+    loadChildren: () => import('./egyptiansgallery/egyptiansgallery.module').then( m => m.EgyptiansgalleryPageModule)
+  },
+  {
+    path: 'greeksgallery',
+    loadChildren: () => import('./greeksgallery/greeksgallery.module').then( m => m.GreeksgalleryPageModule)
+  },
+  {
+    path: 'phoeniciansgallery',
+    loadChildren: () => import('./phoeniciansgallery/phoeniciansgallery.module').then( m => m.PhoeniciansgalleryPageModule)
+  },
+  {
+    path: 'sumeriansgallery',
+    loadChildren: () => import('./sumeriansgallery/sumeriansgallery.module').then( m => m.SumeriansgalleryPageModule)
+  },
+  {
+    path: 'persiansgallery',
+    loadChildren: () => import('./persiansgallery/persiansgallery.module').then( m => m.PersiansgalleryPageModule)
+  },
 ];
 @NgModule({
   imports: [
